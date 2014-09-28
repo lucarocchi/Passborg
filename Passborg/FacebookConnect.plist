@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>client_id</key>
+	<string>383838271692702</string>
+	<key>secret</key>
+	<string>41a0c437bdd8fff7b7ae4db94fea79cc</string>
+	<key>scope</key>
+	<string>manage_pages</string>
+	<key>redirect_uri</key>
+	<string>https://passborg.com/facebook/logged.php</string>
+</dict>
+</plist>
