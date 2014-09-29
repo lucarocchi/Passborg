@@ -428,7 +428,7 @@ NSString * const searchKey=@"searchHistory";
     //if (i!= NSNotFound){
     //    return 70;
     //}
-    return 302;//[tableView bounds].size.height;
+    return 320;//[tableView bounds].size.height;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForSectionAtIndexPath:(NSIndexPath *)indexPath
@@ -455,7 +455,7 @@ NSString * const searchKey=@"searchHistory";
 }
 
 - (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section{
-    return @"Near places";
+    return nil;
     /*mbAppDelegate *app = (mbAppDelegate *)[[UIApplication sharedApplication] delegate];
     if (app->listIndex==0){
        NSString*cat=[self.placeCategoryKeys objectAtIndex:section];
